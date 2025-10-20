@@ -1,0 +1,41 @@
+{
+  "info": {
+    "name": "PostCrossing Mock API",
+    "version": "1.0"
+  },
+  "item": [
+    {
+      "name": "Register",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{ \"username\":\"alice\",\"email\":\"alice@example.com\",\"password\":\"password\",\"displayName\":\"Alice\",\"countryCode\":\"US\" }"
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/auth/register"
+        }
+      }
+    },
+    {
+      "name": "Request Address (auth)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer <token>"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/postcards/request-address"
+        }
+      }
+    }
+  ]
+}
