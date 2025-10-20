@@ -1,8 +1,4 @@
 
-# PostCrossing Mock — Updated to run locally (no Docker required for MongoDB)
-
-This repository is a mock implementation of PostCrossing for the assignment.
-I updated the project so you can run the backend directly against a local MongoDB instance (no Docker required).
 
 ## Quick local setup (Windows / PowerShell)
 
@@ -69,4 +65,4 @@ This archive contains a minimal, ready-to-run skeleton for the PostCrossing mini
 - server/: Express server, Mongoose models, routes, and seed script.
 - extension/: Firefox extension files (manifest.json, background.js)
 
-This is a minimal scaffold designed to be extended. See the original project plan for full details.
+
