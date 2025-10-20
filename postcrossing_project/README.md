@@ -24,9 +24,6 @@ node seed.js
 .\demo.ps1
 ```
 
-## Notes about Docker
-The original project included a `docker-compose.yml` to run `mongo` in Docker. You don't need Docker — the server connects to the local MongoDB instance via `server/.env`. If you prefer Docker, the compose file is still included, but it is optional.
-
 
 # PostCrossing Mini-Project
 
